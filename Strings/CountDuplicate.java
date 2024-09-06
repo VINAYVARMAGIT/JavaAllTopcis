@@ -1,6 +1,6 @@
 package Strings;
 
-public class RemoveRepeated {
+public class CountDuplicate {
    public static void main(String args[]){
     String name = "vinay varma";
 
@@ -14,9 +14,10 @@ public class RemoveRepeated {
 
     for (int i = 0; i < ch.length; i++) {
         char c1= ch[i];
+        int count=49;
         for (int j = i+1; j < ch.length; j++) {
             if (c1==ch[j]) {        
-                ch[j]= '\u0000';
+                ch[j]= (char) count++;
             }
             if (ch[j]==' ') {
                 ch[j]='\u0000';
@@ -27,3 +28,4 @@ public class RemoveRepeated {
     return name1;
    }
 }
+
