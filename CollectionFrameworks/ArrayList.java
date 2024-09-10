@@ -2,13 +2,13 @@ package CollectionFrameworks;
 
 import java.util.Arrays;
 
-public class customArrayList<T> {
+public class ArrayList<T> {
 
     private Object[] array ;
     private int size=0;
     private int capaticyOfArray=10;
 
-    public customArrayList(){
+    public ArrayList(){
         array= new Object[capaticyOfArray];
     }
     public void add(T element){

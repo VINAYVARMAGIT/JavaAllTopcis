@@ -1,6 +1,6 @@
 package CollectionFrameworks;
 
-public class customLinkedList<T> {
+public class LinkedList<T> {
 
     private Node<T> head;
     private int size;
@@ -15,7 +15,7 @@ public class customLinkedList<T> {
         }
     }
 
-    public void add(T add){
+    public void add(T data){
         Node<T> newNode = new Node<>(data);
         if (head==null) {
             head = newNode;
@@ -29,7 +29,7 @@ public class customLinkedList<T> {
     }
     public T get(int index){
         if (index<0 || index>=size) {
-            throw new IndexOutOfBoundsException()
+            throw new IndexOutOfBoundsException();
         }
         Node<T> current = head;
         for (int i = 0; i <index; i++) {
