@@ -1,4 +1,4 @@
-package Collectionsss;
+package CollectionssFramework;
 import java.lang.*;
 public class DoubleLinkedList <T>{
 

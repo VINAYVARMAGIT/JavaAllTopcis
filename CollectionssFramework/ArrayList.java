@@ -1,4 +1,4 @@
-package Collectionsss;
+package CollectionssFramework;
 
 import java.util.Arrays;
 

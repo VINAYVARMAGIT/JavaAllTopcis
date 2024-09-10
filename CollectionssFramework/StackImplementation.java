@@ -1,4 +1,4 @@
-package Collectionsss;
+package CollectionssFramework;
 
 public class StackImplementation {
    private int [] stack;

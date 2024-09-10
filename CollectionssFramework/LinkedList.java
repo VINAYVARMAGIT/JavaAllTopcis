@@ -1,4 +1,4 @@
-package Collectionsss;
+package CollectionssFramework;
 
 public class LinkedList<T> {
 
