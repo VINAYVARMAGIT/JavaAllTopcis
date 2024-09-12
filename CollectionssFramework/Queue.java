@@ -1,6 +1,4 @@
-package CollectionssFramework;
-
-import javax.management.RuntimeErrorException;
+package collectionssframework;
 
 public class Queue {
    private int[] queue;

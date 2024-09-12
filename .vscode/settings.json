@@ -1,4 +1,16 @@
 {
     "java.home": "C:/Program Files/Java/jdk-17" // Replace with your JDK path
-
 }
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Launch LambdaExpressions",
+        "request": "launch",
+        "mainClass": "javanewver.LambdaExpressions",
+        "projectName": "YourProjectName"
+      }
+    ]
+  }
+  
