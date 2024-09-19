@@ -55,7 +55,7 @@ public void removeLast(){
         tail= null;
     }else{
         tail = tail.prev;
-        tail= null;
+        tail.next= null;
     }
     size--;
 }
@@ -66,7 +66,7 @@ public void removeFirst(){
         tail= null;
     }else{
         head = head.next;
-        head= null;
+        head.prev= null;
     }
     size--;
 }
