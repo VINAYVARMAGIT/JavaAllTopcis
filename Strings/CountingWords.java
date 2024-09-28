@@ -2,7 +2,7 @@ package Strings;
 
 public class CountingWords {
   public static void main(String[] args) {
-    String s ="java   is    easy";
+    String s ="java is    easy";
     int l=0;
     int count=1;
     while (l<s.length()) {

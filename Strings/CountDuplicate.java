@@ -4,12 +4,13 @@ public class CountDuplicate {
    public static void main(String args[]){
     String name = "vinay varma";
 
-    String newName = removeDuplicate(name);
+    // String newName = removeDuplicate(name);
 
-    System.out.println(newName);
+    // System.out.println(newName);
 
+    removeDuplicate(name);
    }
-   public static String removeDuplicate(String name){
+   public static void  removeDuplicate(String name){
     char[] ch = name.toCharArray();
 
     for (int i = 0; i < ch.length; i++) {
@@ -24,8 +25,11 @@ public class CountDuplicate {
             }
         }
     }
-    String name1 = new String(ch);
-    return name1;
+    // String name1 = new String(ch);
+    // return name1;
+    for(char c : ch){
+        System.out.print(c);
+    }
    }
 }
 
